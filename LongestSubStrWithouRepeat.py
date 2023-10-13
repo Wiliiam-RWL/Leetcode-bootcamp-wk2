@@ -17,4 +17,4 @@ class Solution:
                     counter[s[left]] -= 1
                     left += 1
                 right += 1
-        return max_length if max_length > right - left else right - left 
+        return max_length if max_length > right - left else right - left
